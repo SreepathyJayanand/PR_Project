@@ -19,7 +19,6 @@ def paint(event):
 root = tk.Tk()
 
 cv = tk.Canvas(root, width=width, height=height, bg='white')
-cv.place(anchor=tk.CENTER)
 cv.pack()
 
 image1 = Image.new("RGB", (width, height), white)
