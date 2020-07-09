@@ -1,10 +1,11 @@
 ### How to execute the project
+
 ## First draw an image to perform the digit recognition
 python3 drawer.py
+
 ## Execute to find the character which you drew
 python3 test.py
-
-The result shown in terminal
+The result will be shown in terminal
 ### How to train
 Execute CNN_mnist.py
 The saved weights file is stored in Trained_weights.hdf5
@@ -24,9 +25,7 @@ Batch size for training - 128
 
 Dataset used - MNIST with each image being 28 x 28 pixels
 
-
 ### Architecture
-
 
 Total images = 70000 split into 60000 for training and 10000 for testing
 Input for training - (60000, 28, 28, 1) tensor
