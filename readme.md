@@ -1,11 +1,5 @@
 ## How to execute the project
-
-### First draw an image to perform the digit recognition
-python3 drawer.py
-
-### Execute to find the character which you drew
-python3 test.py
-The result will be shown in terminal
+Run app.py
 ## How to train
 Execute CNN_mnist.py
 The saved weights file is stored in Trained_weights.hdf5
