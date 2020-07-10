@@ -1,7 +1,9 @@
 ## How to execute the project
+
 Run app.py
+
 ## How to train
-Execute CNN_mnist.py
+Execute [CNN_mnist.py](CNN_mnist.py)
 The saved weights file is stored in Trained_weights.hdf5
 
 ## Documentation
