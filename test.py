@@ -81,4 +81,5 @@ x_test[0] = img[:, :, newaxis]
 p = x_test[0:1]
 print("The number is :")
 print(model.predict_classes(p))
+answer = model.predict_classes(p)
 # print(y_test)
