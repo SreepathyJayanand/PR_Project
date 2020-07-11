@@ -1,19 +1,24 @@
 ## How to execute the project
 Run app.py
+
 Wait for app.py to detect the image you drew in the canvas
+
 See the output in the message box
 
 ## How to train
 Execute [CNN_mnist.py](CNN_mnist.py)
 
-
 The saved weights file are stored in Trained_weights.hdf5
 
 ## Documentation
 Language - Python (3.7.7)
+
 Neural Network library - Keras (2.4.3)
+
 Computational library - Numpy (1.18.2)
+
 Graphic Library - Tkinter (8.5)
+
 Image Library - Pillow (6.2.1)
 
 
