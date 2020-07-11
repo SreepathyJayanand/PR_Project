@@ -8,7 +8,7 @@ from keras import backend as K
 
 batch_size = 128
 num_classes = 10
-epochs = 2
+epochs = 10
 
 # input image dimensions
 img_rows, img_cols = 28, 28
@@ -62,6 +62,7 @@ model.fit(x_train, y_train,
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
-fname = "Trained_weights.hdf5"
-model.save_weights(fname, overwrite=True)
-print("Weights saved")
+# If you want to save the new weights generated using this file, uncomment lines 66, 67, 68
+# fname = "Trained_weights.hdf5"
+# model.save_weights(fname, overwrite=True)
+# print("Weights saved")

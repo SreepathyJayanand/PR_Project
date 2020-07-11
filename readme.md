@@ -1,5 +1,5 @@
 ## How to execute the project
-Run app.py
+Run app.py (It predicts based on the pretrained weights that we have generated and stored in "Trained_weights.hdf5")
 
 Wait for app.py to detect the image you drew in the canvas
 
@@ -21,14 +21,13 @@ Graphic Library - Tkinter (8.5)
 
 Image Library - Pillow (6.2.1)
 
-
 Model used - Sequential(Each layer has 1 input tensor and 1 output tensor)
 
 Loss funtion - Categorical cross entropy loss(Softmax/normalized_exponential_funtion + cross_entropy_loss)
 
 Optimizer - Adadelta(Advanced Gradient descent without the drawback of decaying learning rate throughout training and without the need of giving an expicit learning rate)
 
-Epochs - 2
+Epochs - 10
 
 Batch size for training - 128
 
@@ -37,7 +36,9 @@ Dataset used - MNIST with each image being 28 x 28 pixels
 ### Image specifications
 
 Total images = 70000 split into 60000 for training and 10000 for testing
+
 Input for training - (60000, 28, 28, 1) tensor
+
 Input for testing - (10000, 28, 28, 1) tensor
 
 ### Feature Extraction part:
