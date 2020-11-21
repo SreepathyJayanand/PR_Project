@@ -61,6 +61,7 @@ We add a dense layer for our network which is a fully connected layer with 128 n
 Again we add a dropout funtion to prevent overfitting with each node having a probability of 0.5 to get a weight of 0.
 
 Finally we again add a dense layer of 10 nodes which receives input from the 128 nodes in the previous layer with the softmax activation function and converts it to an answer from 0 - 9.
+test
 
 
 
